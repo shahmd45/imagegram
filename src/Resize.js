@@ -22,7 +22,6 @@ class Resize extends Component {
     }
 
     render() {
-        console.log(this.state);
         return (
             <span>
                 {this.state.windowWidth} x {this.state.windowHeight}
